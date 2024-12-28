@@ -127,13 +127,16 @@ div {
 
 .logo_link {
     color: #fff;
-    font-family: "Jersey 15";
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    flex-shrink: 0;
-    text-decoration: none;
+  font-family: "Jersey 15";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-shrink: 0;
+  list-style: none;
+  outline: none;
+  border: 0;
+  background: transparent;
 }
 
 .back {

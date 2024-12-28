@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Jersey 15';
+    src: url('/font-family/Jersey15-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('/photo/greyfade.jpg') no-repeat center center fixed; /* Фон с изображением */
+    background-size: cover; /* Фон растягивается на весь экран */
+    background-color: #f0f0f0;
+}
+
+.container-main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-width);
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+    width: 100%;
+    flex-direction: row
+}
+
+.nav-container {
+    flex-grow: 1; 
+}
+
+.nav-sing {
+    margin-left: 20px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.top-navigation {
+    position: fixed; /* Зафиксированная навигация */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    margin-top: 15px;
+
+}
+
+.button {
+  color: #fff;
+  font-family: "Jersey 15";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-shrink: 0;
+  list-style: none;
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 100px;
+}
+
+.main-sing {
+    margin-right: 50px
+}
+
+.main-menu:first-child {
+    margin-left: 20px;
+}
+
+.main-sing {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+
+
+.img-anti-mage{
+    position: relative;
+    height: auto;
+    width: 40%;
+    margin-left: 100px;
+}
+.agility {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Выравнивание по центру */
+    text-align: center;
+    justify-content: center; /* Горизонтальное выравнивание */
+    
+}
+.agility img {
+    width: 30px;
+    margin-right: 10px;
+    display: block;
+}
+
+.main-am{
+    display: flex;
+    align-items: center;  /* Выравнивание по вертикали */
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    
+}
+
+.history{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px
+}
+
+.history-text{
+    display: block;
+    font-size: 36px;
+}
+.container-main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-gl {
+    flex: 1;  /* Текст займет всю доступную ширину */
+    margin-left: 100px;  /* Отступ между текстом и изображением */
+    text-align: center;  /* Выровнять текст по центру */
+    background-color: #000000;  /* Цвет фона */
+    padding: 20px;  /* Отступы внутри контейнера */
+    border-radius: 10px;  /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Тень для визуального эффекта */
+    width: 650px;
+    height: 480px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #2A2A2A;
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+
+}
+
+
+.img-anti-mage {
+    max-width: 100%;  /* Изображение не выходит за пределы контейнера */
+    height: auto;
+}
+
+.atributs{
+    font-size: 24px
+}
