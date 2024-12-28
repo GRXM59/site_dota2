@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Jersey 15';
-    src: url('/font-family/Jersey15-Regular.ttf') format('truetype');
+    src: url('site_dota2/font-family/Jersey15-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'JockeyOne';
-    src: url('/font-family/JockeyOne-Regular.ttf') format('truetype');
+    src: url('site_dota2/font-family/JockeyOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Fonts Online';
-    src: url('/font-family/21028.ttf') format('truetype');
+    src: url('site_dota2/font-family/21028.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

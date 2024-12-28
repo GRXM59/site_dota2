@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Jersey 15";
-  src: url("/font-family/Jersey15-Regular.ttf") format("truetype");
+  src: url("site_dota2/font-family/Jersey15-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url("/photo/greyfade.jpg") no-repeat center center fixed; /* Фон с изображением */
+  background: url("site_dota2/photo/greyfade.jpg") no-repeat center center fixed; /* Фон с изображением */
   background-size: cover; /* Фон растягивается на весь экран */
   background-color: #f0f0f0;
 }
